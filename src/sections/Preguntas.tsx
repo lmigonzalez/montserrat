@@ -73,7 +73,7 @@ const Preguntas = () => {
                 <div className="flex justify-between ">
                   <h4 className='font-medium text-lg'>{item.question}</h4>
                   <Image
-                    src="/right-arrow.png"
+                    src="/right.png"
                     alt="arrow icon"
                     width={20}
                     height={20}
