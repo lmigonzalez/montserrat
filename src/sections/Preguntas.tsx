@@ -38,7 +38,6 @@ const Preguntas = () => {
   const [questions, setQuestions] = useState(FAQ);
 
   function handleAnswer(id: number) {
-
     setQuestions((prevItems) =>
       prevItems.map((item) => {
         if (item.id === id) {
@@ -66,21 +65,23 @@ const Preguntas = () => {
           {questions.map((item, index) => {
             return (
               <li
-                className="border-b-[2px] border-my_yellow pb-4 cursor-pointer"
+                className="cursor-pointer border-b-[2px] border-my_yellow pb-4"
                 key={index}
                 onClick={() => handleAnswer(item.id)}
               >
                 <div className="flex justify-between ">
-                  <h4 className='font-medium text-lg'>{item.question}</h4>
-                  <Image
-                    src="/right.png"
-                    alt="arrow icon"
-                    width={20}
-                    height={20}
-                    className="rotate-90"
-                  />
+                  <h4 className="w-4/5 md:w-auto text-base md:text-lg font-medium">{item.question}</h4>
+                  <div className='w-auto ml-2'>
+                    <Image
+                      src="/right.png"
+                      alt="arrow icon"
+                      width={20}
+                      height={20}
+                      className="rotate-90"
+                    />
+                  </div>
                 </div>
-                {item.active && <p className='mt-4'>{item.description}</p>}
+                {item.active && <p className="mt-4">{item.description}</p>}
               </li>
             );
           })}
