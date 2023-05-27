@@ -2,9 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export const metadata = {
-  title: 'Acerca de mí | Montserrat Arreola De la Mora',
-};
 
 const Acerca = () => {
   return (

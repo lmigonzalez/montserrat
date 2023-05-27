@@ -1,8 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-export const metadata = {
-  title: 'Mis servicios | Montserrat Arreola De la Mora',
-};
+
 const Servicios = () => {
   const firstContent = [
     'Atención personalizada en inglés de acuerdo a tus requerimientos y adapto mis métodos de enseñanza a lo que deseas lograr. ',

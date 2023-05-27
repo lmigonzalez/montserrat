@@ -5,9 +5,7 @@ import { useFormik } from 'formik';
 import { contactSchema } from '../../validation/validation';
 import Spinner from '@/components/Spinner';
 
-export const metadata = {
-  title: 'Contáctame | Montserrat Arreola De la Mora',
-};
+
 const Contact = () => {
   const [loading, setLoading] = useState(false);
   const {

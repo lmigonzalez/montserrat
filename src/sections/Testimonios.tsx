@@ -27,13 +27,13 @@ const Testimonios = () => {
 
       <div className="w-[1200px] max-w-full">
         <h3 className="mb-8 text-center text-xl md:text-3xl font-medium text-my_yellow">
-          "Historias de éxito de mis estudiantes satisfechos"
+        &quot;Historias de éxito de mis estudiantes satisfechos&quot;
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
           {' '}
           {data.map((item, index) => {
             return (
-              <div className="bg-my_blue px-4 py-8 text-center text-white">
+              <div key={index} className="bg-my_blue px-4 py-8 text-center text-white">
                 <h4 className="font-medium">{item.name}</h4>
                 <div className="mb-4 flex justify-center gap-1">
                   {Array.from({ length: 5 }).map((_, index) => (

@@ -34,7 +34,7 @@ const Preguntas = () => {
 
       <div className="text-justify  w-[1200px] max-w-full">
         <h3 className="text-center text-xl md:text-3xl font-medium text-my_yellow mb-8">
-          "Encuentra respuestas a tus dudas"
+        &quot;Encuentra respuestas a tus dudas&quot;
         </h3>
         <div
           tabIndex={0}

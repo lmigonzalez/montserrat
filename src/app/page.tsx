@@ -1,3 +1,4 @@
+'use client'
 import Image from 'next/image';
 import Head from 'next/head';
 import Hero from '@/sections/Hero';
@@ -5,9 +6,7 @@ import Services from '@/sections/Services';
 import Experiencia from '@/sections/Experiencia';
 import Preguntas from '@/sections/Preguntas';
 import Testimonios from '@/sections/Testimonios';
-export const metadata = {
-  title: 'Inicio | Montserrat Arreola De la Mora',
-};
+
 export default function Home() {
   return (
     <>
