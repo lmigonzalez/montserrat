@@ -75,7 +75,8 @@ const Servicios = () => {
             className="m-auto"
           />
           <h3 className="my-8 text-center text-xl font-medium text-my_yellow md:text-3xl">
-            Ventajas de tomar clases de inglés conmigo
+            Ventajas de tomar cursos y asesorías en el ámbito pedagógico
+            conmigo:
           </h3>
 
           <div className="text-justify">

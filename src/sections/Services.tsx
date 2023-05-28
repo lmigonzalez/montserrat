@@ -53,7 +53,7 @@ const Services = () => {
   return (
     <div className="max-w-full px-4 py-28">
       <div className=" m-auto mb-14 w-fit">
-        <h2 className="text-4xl font-medium md:text-7xl">Services</h2>
+        <h2 className="text-4xl font-medium md:text-7xl">Servicios</h2>
         <div className="ml-auto h-1 w-1/2 rounded-full bg-my_blue md:h-2"></div>
       </div>
 

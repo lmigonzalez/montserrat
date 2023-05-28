@@ -15,7 +15,7 @@ const Hero = () => {
         {' '}
         <div className="absolute left-4 top-1/4 z-20 m-auto w-fit space-y-10 rounded-md bg-white px-4 py-10  text-my_light_black md:top-1/3 md:bg-black md:bg-opacity-50 md:text-white md:backdrop-blur-sm">
           <h1 className="text-5xl">Montserrat Arreola De la Mora</h1>
-          <h2 className="text-3xl">¡Aprende con un profesor experto!</h2>
+          <h2 className="text-3xl">¡Aprende con una profesora experta!</h2>
           <div>
             <Link
               href={'/contact'}
